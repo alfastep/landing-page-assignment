@@ -67,15 +67,18 @@ header {
 
 .header-bottom {
   display: flex;
+  justify-content: space-between;
 }
 
 .header-bottom li {
   list-style: none;
+  padding-top: 10px;
 }
 
 .header-bottom-left {
   display: flex;
   flex-direction: column;
+  width: 50%;
 }
 
 .header-bottom-right {
@@ -87,7 +90,7 @@ header {
 
 .header-bottom-right p {
   color: #f9faf8;
-  padding: 20px 50px;
+  padding: 20px 70px;
 }
 
 .main-text {
@@ -123,6 +126,7 @@ header {
 
 .card {
   padding: 50px;
+  text-align: center;
 }
 
 .card-image {
